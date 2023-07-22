@@ -1,11 +1,11 @@
+import * as actionTypes from "../actions/type";
 
-export const todosReducer = () => {
-    switch (key) {
-        case value:
-            
-            break;
-    
-        default:
-            return;
-    }
-}
+export const todosReducer = (state = [], action) => {
+  switch (action.type) {
+    case actionTypes.ADDNEW_TODO:
+      return [action.payload, ...state];
+
+    default:
+      return state;
+  }
+};
