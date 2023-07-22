@@ -23,6 +23,22 @@ header{
   color: #2c3e50;
 }
 
+.todo_form{
+  width: 400px;
+  height: 40px;
+}
+.todo_input{
+  width: 100%;
+  height: 38px;
+  outline: none;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid #2c3e50;
+  padding: 0 15px;
+  font-size: 1.0rem;
+  color: #2c3e50;
+}
+
 
 
 
