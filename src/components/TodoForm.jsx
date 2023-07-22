@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 
 const TodoForm = () => {
+  const [text, setText] = useState("");
   // Form Submit
-  const onFormSubmit = () => {
-    const [text, setText] = useState("");
-  };
+  const onFormSubmit = () => {};
 
   //   value submit
   const onInputSubmit = (e) => {
@@ -18,7 +17,6 @@ const TodoForm = () => {
           type="text"
           placeholder="Enter new todo"
           className="todo_input"
-          value={text}
           onChange={onInputSubmit}
         />
       </form>
