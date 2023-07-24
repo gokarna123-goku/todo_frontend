@@ -45,7 +45,8 @@ header{
 .task{
   width: 100%;
   height: auto;
-  background: #34495e;
+  /* background: #34495e; */
+  background: #FF3131;
   margin: 1rem 0;
   padding: 1.2rem;
   border-radius: 6px;
@@ -53,7 +54,7 @@ header{
   align-items: center;
   justify-content: space-between;
   font-size: 1.0rem;
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
   cursor: pointer;
 }
 
