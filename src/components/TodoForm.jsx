@@ -28,6 +28,7 @@ const TodoForm = () => {
           placeholder="Enter new todo"
           className="todo_input"
           onChange={onInputSubmit}
+          value={text}
         />
       </form>
     </>
