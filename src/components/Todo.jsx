@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Todo = ({ todo }) => {
   return (
-    <li>
-        <span>{ todo.data }</span>
-    </li>
-  )
-}
+    <li className="task">
+      <p className="task_name">{todo.data}</p>
 
-export default Todo
+      <div className="actions">
+        <i className="fa-solid fa-pen"></i>
+        <i className="fa-solid fa-trash"></i>
+      </div>
+    </li>
+  );
+};
+
+export default Todo;

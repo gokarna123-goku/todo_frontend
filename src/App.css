@@ -6,6 +6,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
+li{
+  list-style: none;
+}
 
 body{
   width: 100%;
@@ -29,7 +32,7 @@ header{
 }
 .todo_input{
   width: 100%;
-  height: 38px;
+  height: 100%;
   outline: none;
   background: none;
   border-radius: 6px;
@@ -39,7 +42,26 @@ header{
   color: #2c3e50;
 }
 
+.task{
+  width: 100%;
+  height: auto;
+  background: #34495e;
+  margin: 1rem 0;
+  padding: 1.2rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.0rem;
+  color: #f2f2f2;
+  cursor: pointer;
+}
 
+.task .actions{
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+}
 
 
 /*  */
