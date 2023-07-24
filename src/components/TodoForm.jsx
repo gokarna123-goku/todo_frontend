@@ -12,6 +12,7 @@ const TodoForm = () => {
   const onFormSubmit = (e) => {
     e.preventDefault();
     dispatch(addNewTodo(text));
+    setText('');
   };
 
   //   value submit
